@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="anchor" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.sampleController"><stylesheets>
+    <URL value="@styleSheet.css" />
+</stylesheets>
+   <children>
+        <Label accessibleRole="PARENT" layoutY="14.0" prefHeight="102.0" prefWidth="800.0" text=" Welcome to TX Powerlifting" textFill="#fcfcfc">
+            <font>
+                <Font size="63.0" />
+            </font>
+        </Label>
+        <Button layoutX="310.0" layoutY="322.0" mnemonicParsing="false" onAction="#login" prefHeight="42.0" prefWidth="182.0" style="-fx-background-color: black; -fx-border-color: white;" text="Login" textFill="#f8f8f8">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Button>
+      <TextField layoutX="310.0" layoutY="213.0" prefHeight="42.0" prefWidth="182.0" promptText="User Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField layoutX="310.0" layoutY="268.0" prefHeight="42.0" prefWidth="182.0" promptText="Password">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
